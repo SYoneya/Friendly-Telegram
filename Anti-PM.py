@@ -41,7 +41,7 @@ class DoNotDisturbMod(loader.Module):
                "pm_blocked": ("<b>I don't want any PM from</b> <a href='tg://user?id={}'>you</a>, "
                               "<b>so you have been blocked !</b>"),
                "pm_denied": "<b>I have denied</b> <a href='tg://user?id={}'>you</a> <b>to PM now.</b>",
-               "pm_go_away": ("Ты должен быть подписан на @HebaruChannel, чтобы начать общаться со мной!\nЕсли ты подписан, то пиши 'готово' и жди."),
+               "pm_go_away": ("Привет! Я не общаюсь здесь, поэтому заходи в @HebaruChat. Жду! <3"),
                "pm_reported": "<b>You just got reported to spam !</b>",
                "pm_limit_arg": "<b>Argument must be 'off', 'on' or a number between 5 and 1000 !</b>",
                "pm_limit_off": "<b>Not allowed users are now free to PM without be automatically blocked.</b>",

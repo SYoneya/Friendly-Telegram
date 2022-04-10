@@ -18,8 +18,8 @@ class DoNotDisturbMod(loader.Module):
     Commands :
      
     """
-    strings = {"name": "DND",
-               "afk": "<b>I'm AFK right now (since</b> <i>{}</i> <b>ago).</b>",
+    strings = {"name": "AntiPM",
+               "afk": "<b>Я сейчас в АФК (уже</b> <i>{}</i><b>).</b>",
                "afk_back": "<b>I'm goin' BACK !</b>",
                "afk_gone": "<b>I'm goin' AFK !</b>",
                "afk_no_group_off": "<b>AFK status message enabled for group chats.</b>",

@@ -10,13 +10,13 @@ class ImpMod(loader.Module):
 
     async def impcmd(self, message):
         """Используй: .imp <@ или текст или реплай>."""
-        await message.edit("Подождите...")
+        await message.edit("<b>[Among Us]</b> Подождите...")
         await self.procces_img(message, "en")
         await message.delete()
 
     async def ruimpcmd(self, message):
         """Используй: .ruimp <@ или текст или реплай>."""
-        await message.edit("Подождите...")
+        await message.edit("<b>[Among Us]</b> Подождите...")
         await self.procces_img(message, "ru")
         await message.delete()
 

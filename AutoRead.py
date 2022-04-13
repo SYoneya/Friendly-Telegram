@@ -25,4 +25,4 @@ class AutoReadMod(loader.Module):
 
     async def watcher(self, message): 
         if self.db.get("Auto read", "status"):
-            await message.client.send_read_acknowledge(message.chat_id, clear_mentions=True)
+            await message.client.send_read_acknowledge(message.chat_id, clear_mentions=True, clear_reactions=True)

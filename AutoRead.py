@@ -3,7 +3,7 @@ from asyncio import sleep
  
 @loader.tds 
 class AutoReadMod(loader.Module): 
-    """Модуль, который показывает, что ты в сети. Сам читает все сообщения в чатах, каналах и лс.""" 
+    """Модуль, который показывает, что ты в сети. Сам читает все сообщения и реакции.""" 
     strings = {'name': 'AutoRead'} 
  
     async def client_ready(self, client, db): 
